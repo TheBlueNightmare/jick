@@ -155,4 +155,4 @@ Specifies the output file. If no filename is specified, a filename will be gener
 --------------
 This project was made by [VyperLabs](https://www.securityandpentesting.org/) at [https://www.securityandpentesting.org](https://www.securityandpentesting.org )
 
-It's a small project, but contact TheBlueNightmare on GitHub if you want to contribute.
+It's a small project, but feel free to submit a pull request, if you want to contribute.
