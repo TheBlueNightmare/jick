@@ -51,7 +51,7 @@ Just be sure that all of the supplied URLs are for the same hostname.
 --href
 ``
 
-Extracts links from <a href='https://www.example.com'> tags
+Extracts links from href attributes in anchor tags.
 
 ``
 --iframe
