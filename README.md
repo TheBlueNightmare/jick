@@ -10,6 +10,9 @@ websites), Jick has the ability to intelligently generate
 form data for GET and POST forms which it then submits in order
 to facilitate crawling.
 
+Jick can generate form data for text input, passwords, emails,
+textareas, radio buttons, checkboxes, select drop-down menus, e.t.c.
+
 It outputs a simple text file which contains a list of discovered
 URLs, query parameter names and values, and either "GET" or "POST"
 depending on whether the parameter names/values are sent in a
