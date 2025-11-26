@@ -19,7 +19,8 @@ GET or POST request, respectively.
 -----
 
 Edit the form_parameters.ini file to alter how Jick will generate
-data for form submissions.
+data for form submissions. Or just stick with the default settings,
+which will probably work well, in most cases.
 
 Then, Jick can be used in the command-line
 
@@ -95,14 +96,14 @@ browser.
 ``
 
 Sets a proxy. In this case, 127.0.0.1:8080
-Does not work with HTTPs.
+Does not work with HTTPS.
 
 ``
 --max-time 180
 ``
 
 Sets the maximum time to crawl, in seconds. This value may be slightly exceeded, because the crawler may be in the middle of
-visiting a web page when the maximum time limit is reached.
+visiting a web page when the maximum time limit is reached. The default is 10 minutes (600 seconds).
 
 ``
 --max-results 100
@@ -120,7 +121,7 @@ add all 20 of these new URLs to the list of URLs it has discovered, and it will 
 ``
 
 Sets the timeout for each HTTP request. If the timeout is reached, the crawler does not continue trying to visit that
-particular page.
+particular page. The default is 5.
 
 ``
 --min-delay
@@ -135,7 +136,7 @@ and
 establishes a minimum and maximum delay (in seconds) to sleep for, after each HTTP request is made. The actual amount of time
 spent sleeping will be a random value between the minimum and maximum delay.
 
-Setting these 2 numbers to be the same will result in it not delaying at all.
+Setting these 2 numbers to be the same will result in it not delaying at all. The default setting is having no delay at all.
 
 ``
 --use-cookies
@@ -151,6 +152,7 @@ Specifies the output file. If no filename is specified, a filename will be gener
 
 
 ##Contribution
+--------------
 This project was made by [VyperLabs](https://www.securityandpentesting.org/) at [https://www.securityandpentesting.org](https://www.securityandpentesting.org )
 
 It's a small project, but contact TheBlueNightmare on GitHub if you want to contribute.
