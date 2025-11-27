@@ -1,7 +1,6 @@
 # JICK
 
-##General information
--------------------
+## General information
 
 Jick is a web-spider that can crawl websites 'intelligently'. 
 Whereas normal crawlers will generally not submit GET or POST forms
@@ -18,8 +17,8 @@ URLs, query parameter names and values, and either "GET" or "POST"
 depending on whether the parameter names/values are sent in a
 GET or POST request, respectively.
 
-##Usage
------
+## Usage
+
 
 Edit the form_parameters.ini file to alter how Jick will generate
 data for form submissions. Or just stick with the default settings,
@@ -154,8 +153,7 @@ Tells the crawler to use cookies throughout the crawling session. By default, no
 Specifies the output file. If no filename is specified, a filename will be generated and used by the crawler.
 
 
-##Contribution
---------------
+## Contribution
 This project was made by [VyperLabs](https://www.securityandpentesting.org/) at [https://www.securityandpentesting.org](https://www.securityandpentesting.org )
 
 It's a small project, but feel free to submit a pull request, if you want to contribute.
